@@ -68,7 +68,8 @@ header .container {
   padding: 0 10px;
   background-color: transparent;
 }
-.search:hover{
+.search:focus{
+  border-color: rgba(3, 102, 214, 0.3);
   box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
 }
 header nav {
